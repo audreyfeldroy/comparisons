@@ -16,8 +16,21 @@
     }
   ],
   "features": [
-    "Comes with the Python Standard Library",
-    "Documentation",
-    "Syntax"
+    {
+      "title": "Comes with the Python Standard Library",
+      "answers": ["yes", "no", "no"]
+    },
+    {
+      "title": "Documentation",
+      "answers": [
+        "http://docs.python.org/3.3/library/unittest.html",
+        "http://pytest.org",
+        "http://twistedmatrix.com/trac/wiki/TwistedTrial"
+      ]
+    },
+    {
+      "title": "Syntax",
+      "answers": ["TODO", "TODO", "TODO"]
+    }
   ]
 }

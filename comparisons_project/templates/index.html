@@ -19,9 +19,9 @@
       <tbody>
         {% for feature in comparison.features %}
           <tr>
-            <td>{{ feature }}</td>
-            {% for thing in comparison.things %}
-              <td>TODO</td>
+            <td>{{ feature.title }}</td>
+            {% for answer in feature.answers %}
+              <td>{{ answer }}</td>
             {% endfor %}
           </tr>
         {% endfor %}
