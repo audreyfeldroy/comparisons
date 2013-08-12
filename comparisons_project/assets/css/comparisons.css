@@ -1,10 +1,12 @@
-/*! example.css */
+/*! comparison.css */
 
 /* ==========================================================================
    Site customizations
    ========================================================================== */
 
 /**
- * Example customization goes here.
+ * Glyphicon colors.
  */
 
+.glyphicon-ok { color: #39bd6e; }
+.glyphicon-remove { color: #DA0707; }
