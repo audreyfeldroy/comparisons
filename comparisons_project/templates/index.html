@@ -5,6 +5,8 @@
 <span class="glyphicon glyphicon-ok"></span>
 {% elif answer == "no" %}
 <span class="glyphicon glyphicon-remove"></span>
+{% elif answer.startswith("http") %}
+<a href="{{ answer }}">{{ answer }}</a>
 {% else %}
 {{ answer }}
 {% endif %}
