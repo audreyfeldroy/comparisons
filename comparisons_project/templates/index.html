@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block title %}Comparison: {{ comparison.title }}{% endblock %}
+
+{% block content %}
+<div class="row">
+  <div class="col-12">
+    <h2>Comparison: {{ comparison.title }}</h2>
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Feature</th>
+          {% for thing in comparison.things %}
+            <th>{{ thing.title }}</th>
+          {% endfor %}
+        </tr>
+      </thead>
+      <tbody>
+        {% for feature in comparison.features %}
+          <tr>
+            <td>{{ feature }}</td>
+            {% for thing in comparison.things %}
+              <td>TODO</td>
+            {% endfor %}
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+{% endblock %}

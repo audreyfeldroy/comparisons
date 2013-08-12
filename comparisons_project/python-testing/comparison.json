@@ -1,0 +1,23 @@
+{
+  "title": "Python Testing Tools",
+  "slug": "python-testing-tools",
+  "things": [
+    {
+      "title": "unittest + unittest.mock",
+      "slug": "unittest-and-mock"
+    },
+    {
+      "title": "py.test",
+      "slug": "py.test"
+    },
+    {
+      "title": "Trial",
+      "slug": "trial"
+    }
+  ],
+  "features": [
+    "Comes with the Python Standard Library",
+    "Documentation",
+    "Syntax"
+  ]
+}
