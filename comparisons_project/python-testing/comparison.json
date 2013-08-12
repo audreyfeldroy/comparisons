@@ -11,8 +11,8 @@
       "slug": "py.test"
     },
     {
-      "title": "Trial",
-      "slug": "trial"
+      "title": "django.test",
+      "slug": "django.test"
     }
   ],
   "features": [
@@ -25,7 +25,7 @@
       "answers": [
         "http://docs.python.org/3.3/library/unittest.html",
         "http://pytest.org",
-        "http://twistedmatrix.com/trac/wiki/TwistedTrial"
+        "https://docs.djangoproject.com/en/dev/topics/testing/overview/"
       ]
     },
     {
